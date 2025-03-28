@@ -11,4 +11,13 @@
 ## インストール
 PHPを配置し``create.sql``をデータベース上で実行しテーブルを作成する。
 
+Google reCAPTCHAを導入してるので、
+- login.php
+- regist.php
+- auth.php
+
+にサイトキーとシークレットキーをそれぞれ適切な場所に配置する
+
+> ``sitekey_here``などが書いてあるのでそこに入れること
+
 ``/index.php``にアクセスし``login.php``にリダイレクトしたらインストール完了
